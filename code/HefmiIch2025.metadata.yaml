@@ -1,0 +1,152 @@
+_dataset:
+  class: HefmiIch2025
+  code: HefmiIch2025
+  doi: 10.1038/s41597-025-06100-7
+  interval:
+  - 0
+  - 10
+  n_subjects: 37
+  paradigm: imagery
+acquisition:
+  channel_types:
+    eeg: 32
+  hardware: g.HIamp (g.tec medical engineering GmbH)
+  line_freq: 50.0
+  montage: biosemi32
+  n_channels: 32
+  sampling_rate: 256.0
+  sensors:
+  - FC1
+  - AF3
+  - AF4
+  - CP1
+  - CP2
+  - CP6
+  - Cz
+  - C3
+  - C4
+  - T7
+  - T8
+  - FC2
+  - FC5
+  - FC6
+  - Pz
+  - CP5
+  - PO3
+  - PO4
+  - Oz
+  - Fp2
+  - Fp1
+  - Fz
+  - F3
+  - F4
+  - F7
+  - F8
+  - P3
+  - P4
+  - P7
+  - P8
+  - O1
+  - O2
+bci_application:
+  applications:
+  - rehabilitation
+  environment: clinical
+cross_validation:
+  cv_folds: 5
+  cv_method: 5-fold
+  evaluation_type:
+  - within_subject
+data_processed: true
+data_structure:
+  n_trials: 3330
+  trials_context: 37 subjects x ~3 sessions x 30 trials = ~3330
+documentation:
+  country: CN
+  data_url: https://figshare.com/articles/dataset/28955456
+  doi: 10.1038/s41597-025-06100-7
+  institution: Huazhong University of Science and Technology
+  investigators:
+  - Jian Shi
+  - Danyang Chen
+  - Xingwei Zhao
+  - Zhixian Zhao
+  - Shengjie Li
+  - Yeguang Xu
+  - Tao Ding
+  - Zheng Zhu
+  - Peng Zhang
+  - Qing Ye
+  - Yingxin Tang
+  - Ping Zhang
+  - Bo Tao
+  - Zhouping Tang
+  license: CC-BY-NC-ND-4.0
+  publication_year: 2025
+experiment:
+  class_labels:
+  - left_hand
+  - right_hand
+  events:
+    left_hand: 1
+    right_hand: 2
+  feedback_type: none
+  mode: offline
+  n_classes: 2
+  paradigm: imagery
+  primary_modality: visual
+  stimulus_modalities:
+  - visual
+  - auditory
+  stimulus_type: directional arrow + auditory beep
+  study_design: 2-class hand MI (left/right grasping) for ICH rehabilitation. 17 healthy + 20 ICH patients, 1-6 sessions per
+    subject.
+  synchronicity: synchronous
+  trial_duration: 27.0
+file_format: MAT (pre-epoched)
+paradigm_specific:
+  cue_duration_s: 2.0
+  detected_paradigm: motor_imagery
+  imagery_duration_s: 10.0
+  imagery_tasks:
+  - left_hand
+  - right_hand
+participants:
+  age_max: 65.0
+  age_min: 20.0
+  clinical_population: intracerebral hemorrhage (ICH)
+  gender:
+    female: 8
+    male: 29
+  handedness: right-handed
+  health_status: mixed (17 healthy, 20 ICH patients)
+  n_subjects: 37
+  species: human
+runs_per_session: 1
+sessions_per_subject: 3
+signal_processing:
+  classifiers:
+  - CSP+SVM
+  - FBCSP+SVM
+  - EEGBaseNet
+  - TF+SVM
+  feature_extraction:
+  - CSP
+  - FBCSP
+  - time-frequency features
+  frequency_bands:
+    preprocessing:
+    - 0.5
+    - 30.0
+  spatial_filters:
+  - CSP
+  - FBCSP
+tags:
+  modality:
+  - Motor
+  pathology:
+  - Healthy
+  - Stroke
+  type:
+  - Clinical
+  - Research

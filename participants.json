@@ -1,0 +1,42 @@
+{
+    "participant_id": {
+        "Description": "Unique participant identifier"
+    },
+    "age": {
+        "Description": "Age of the participant at time of testing",
+        "Units": "years"
+    },
+    "sex": {
+        "Description": "Biological sex of the participant",
+        "Levels": {
+            "F": "female",
+            "M": "male"
+        }
+    },
+    "hand": {
+        "Description": "Handedness of the participant",
+        "Levels": {
+            "R": "right",
+            "L": "left",
+            "A": "ambidextrous"
+        }
+    },
+    "weight": {
+        "Description": "Body weight of the participant",
+        "Units": "kg"
+    },
+    "height": {
+        "Description": "Body height of the participant",
+        "Units": "m"
+    },
+    "Description": "Participant demographics (mixed (17 healthy, 20 ICH patients)).",
+    "group": {
+        "Description": "Group the participant belonged to (e.g., healthy, patients)"
+    },
+    "species": {
+        "Description": "Species of the participant (binomial name)"
+    },
+    "bci_experience": {
+        "Description": "BCI experience level of the participant"
+    }
+}
