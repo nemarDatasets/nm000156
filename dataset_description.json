@@ -1,50 +1,52 @@
 {
-	"Name": "Hybrid EEG-fNIRS MI dataset for ICH from Shi et al 2025",
-	"BIDSVersion": "1.9.0",
-	"HEDVersion": "8.4.0",
-	"DatasetType": "derivative",
-	"License": "CC-BY-NC-ND-4.0",
-	"Authors": [
-		"Jian Shi",
-		"Danyang Chen",
-		"Xingwei Zhao",
-		"Zhixian Zhao",
-		"Shengjie Li",
-		"Yeguang Xu",
-		"Tao Ding",
-		"Zheng Zhu",
-		"Peng Zhang",
-		"Qing Ye",
-		"Yingxin Tang",
-		"Ping Zhang",
-		"Bo Tao",
-		"Zhouping Tang"
-	],
-	"ReferencesAndLinks": [
-		"https://figshare.com/articles/dataset/28955456"
-	],
-	"GeneratedBy": [
-		{
-			"CodeURL": "https://github.com/NeuroTechX/moabb",
-			"Name": "moabb",
-			"Description": "Mother of All BCI Benchmarks",
-			"Version": "1.5.0"
-		}
-	],
-	"SourceDatasets": [
-		{
-			"DOI": "10.1038/s41597-025-06100-7",
-			"URL": "https://figshare.com/articles/dataset/28955456"
-		}
-	],
-	"Keywords": [
-		"Healthy",
-		"Stroke",
-		"Motor",
-		"Clinical",
-		"Research",
-		"imagery",
-		"rehabilitation"
-	],
-	"PublicationYear": 2025
+  "Name": "Hybrid EEG-fNIRS MI dataset for ICH from Shi et al 2025",
+  "BIDSVersion": "1.9.0",
+  "HEDVersion": "8.4.0",
+  "DatasetType": "derivative",
+  "License": "CC-BY-NC-ND-4.0",
+  "Authors": [
+    "Jian Shi",
+    "Danyang Chen",
+    "Xingwei Zhao",
+    "Zhixian Zhao",
+    "Shengjie Li",
+    "Yeguang Xu",
+    "Tao Ding",
+    "Zheng Zhu",
+    "Peng Zhang",
+    "Qing Ye",
+    "Yingxin Tang",
+    "Ping Zhang",
+    "Bo Tao",
+    "Zhouping Tang"
+  ],
+  "ReferencesAndLinks": [
+    "https://figshare.com/articles/dataset/28955456"
+  ],
+  "GeneratedBy": [
+    {
+      "CodeURL": "https://github.com/NeuroTechX/moabb",
+      "Name": "moabb",
+      "Description": "Mother of All BCI Benchmarks",
+      "Version": "1.5.0"
+    }
+  ],
+  "SourceDatasets": [
+    {
+      "DOI": "10.1038/s41597-025-06100-7",
+      "URL": "https://figshare.com/articles/dataset/28955456"
+    }
+  ],
+  "Keywords": [
+    "Healthy",
+    "Stroke",
+    "Motor",
+    "Clinical",
+    "Research",
+    "imagery",
+    "rehabilitation"
+  ],
+  "PublicationYear": 2025,
+  "DatasetDOI": "10.82901/nemar.nm000156",
+  "Version": "1.0.0"
 }
