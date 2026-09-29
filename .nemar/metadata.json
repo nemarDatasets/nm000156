@@ -1,0 +1,99 @@
+{
+  "version": "2.0",
+  "pipeline_stage": "validated",
+  "authors": {
+    "Jian Shi": {},
+    "Danyang Chen": {},
+    "Xingwei Zhao": {},
+    "Zhixian Zhao": {},
+    "Shengjie Li": {},
+    "Yeguang Xu": {},
+    "Tao Ding": {},
+    "Zheng Zhu": {},
+    "Peng Zhang": {},
+    "Qing Ye": {},
+    "Yingxin Tang": {},
+    "Ping Zhang": {},
+    "Bo Tao": {},
+    "Zhouping Tang": {
+      "orcid": "0000-0002-4153-8590"
+    }
+  },
+  "related_identifiers": [
+    {
+      "identifier": "10.1038/s41597-025-06100-7",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/nm000156",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/nm000156",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.21105/joss.01896",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "10.1038/s41597-019-0104-8",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    }
+  ],
+  "title": "Hybrid EEG-fNIRS MI dataset for ICH from Shi et al 2025",
+  "license": "CC-BY-NC-ND-4.0",
+  "dataset_type": "derivative",
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "2.59 GB (101 files)"
+  ],
+  "formats": [
+    ".bdf",
+    ".html",
+    ".json",
+    ".md",
+    ".tsv",
+    ".yaml",
+    ".yml"
+  ],
+  "description": "A hybrid EEG-fNIRS motor imagery dataset for brain-computer interface research in intracerebral hemorrhage (ICH). It includes 37 participants (17 healthy, 20 ICH patients) performing two-class left/right hand grasping motor imagery across up to several sessions. The data are pre-epoched, and the dataset is intended for developing and benchmarking BCI approaches for stroke rehabilitation.",
+  "methods_description": "32-channel EEG was recorded with a g.HIamp amplifier (g.tec) at 256 Hz. Each trial presented a directional arrow cue with an auditory beep, followed by 10 s of left or right hand motor imagery. Data were preprocessed with a 0.5-30 Hz band-pass filter. Benchmark classifiers included CSP+SVM, FBCSP+SVM, EEGBaseNet and time-frequency features with SVM.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "fNIRS"
+    },
+    {
+      "term": "motor imagery"
+    },
+    {
+      "term": "brain-computer interface"
+    },
+    {
+      "term": "intracerebral hemorrhage"
+    },
+    {
+      "term": "Stroke Rehabilitation",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D000071939"
+    },
+    {
+      "term": "Brain-Computer Interfaces",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
+    }
+  ],
+  "source_hash": "b206f197b07b4ea62a887abbcaa2040b2548d7f589fea7a6d03cc10345e48c88"
+}
